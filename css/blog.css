@@ -1,0 +1,7 @@
+/* blog-section */
+#blog {
+    background-image: url(../images/alexander-popov-2z0dC1QoP3c-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
