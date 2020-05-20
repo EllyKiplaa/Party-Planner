@@ -128,3 +128,14 @@ nav ul li a{
 	background-attachment: fixed;
     background-color: rgba(237, 237, 237, 1);
 }
+
+#services i{
+    font-size: 80px;
+    padding: 30px 30px;
+    color: #FF2276;
+}
+
+#services h4 {
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
