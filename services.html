@@ -107,5 +107,39 @@
               </div>
             </div>
           </div>
+          <div class="container" id="book-now">
+            <h2 class="h1-responsive font-weight-bold text-center my-4">BOOK NOW</h2>
+            <div class="row">
+              <div class="col-md-9 mb-md-0 mb-5">
+                <form id="book-now" name="book-now" >
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="booking-name" name="booking-name" class="form-control" required>
+                        <label for="booking-name" class="">Your name</label>
+                      </div>
+                    </div>
+                    <div class="ol-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="booking-email" name="booking-email" class="form-control" required>
+                        <label for="email" class="">Your email</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="md-form">
+                        <textarea type="text" name="booking-message" id="booking-message" placeholder="Specify anything else..." 
+                         class="form-control md-textarea" required rows="2"></textarea>
+                        <label for="message">Additional Information</label>   
+                      </div>
+                      <button type="submit" id="submit-bookings" class="btn btn-info">Submit</button>
+                    </div>
+                    <div class="booking-confirmation-message">Your message has been sent</div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
 </body>
 </html>
