@@ -15,6 +15,14 @@
     padding-left: 100vh;
     overflow: hidden;
 }
+#blog .section-heading {
+    margin-top: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+}
 #blog .section-heading .line-dec {
     width: 270px;
     height: 1px;
