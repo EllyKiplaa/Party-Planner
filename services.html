@@ -3,9 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/services.css">
+    <link rel="stylesheet" type="text.css" href="css/bootstrap.css">  
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-    <h1>Services</h1>
+<body class="wrapper">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent  fixed-top">
+        <div class="container">
+            <img src="./images/Fifth Ridge Logo (1).png" alt="tran" width="45" height="45">
+          <a class="navbar-brand" href="#">FIFTH RIDGE</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fa fa-fw fa-home"></i>Home
+                          <span class="sr-only">(current)</span>
+                        </a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fa fa-fw fa-info"></i></i>About
+                          <span class="sr-only">(current)</span>
+                        </a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#Blog"><i class="fas fa-blog"></i>Blog
+                          <span class="sr-only">(current)</span>
+                        </a>
+                  </li>
+                  <li class="nav-item active">  
+                    <a class="nav-link" href="#Services"><i class="fa fa-fw fa-cogs"></i></i>Services
+                          <span class="sr-only">(current)</span>
+                        </a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fa fa-fw fa-envelope"></i>Contact
+                          <span class="sr-only">(current)</span>
+                        </a>
+                  </li>             
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <section class="packages">
+          <div class="container crs text-white">
+            <div class="row">
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 p-1 mx-auto">
+                <div id="basic" class="card sm-4 bd-0 bg-dark packages">
+                  <div class="card-body">
+                        <img src="./images/mediate.png" class="img-fluid">
+                        <ol class="text">
+                          <li>Food</li>
+                          <li>Drinks</li>
+                          <li>Venue</li>
+                          <li>1 Bouncer</li>
+                          <li>Mixologist</li>
+                          <br>
+                        </ol>
+                    </div>
+                    <button id="base" type="button" class="btn btn-success" onclick="basic();">Choose ksh 34000</button>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  
+                </div>
+                
+              </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 p-1 mx-auto">
+              <div id="inter" class="card sm-4 bd-0 bg-dark packages">
+                <div class="card-body"></div>
+                  <img src="./images/inter.png" class="img-fluid">
+                  <ol class="text">
+                    <li>Food</li>
+                    <li>Drinks</li>
+                    <li>Venue</li>
+                    <li>2 Bouncers</li>
+                    <li>System</li>
+                    <li>Mixologist</li>
+                  </ol>
+                </div>
+                <button id="intermediate" class="btn btn-success" onclick="inter();">Choose ksh 63000</button>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 p-1 mx-auto">
+                <div id="prem" class="card sm-4 bd-0 bg-dark packages">
+                  <div class="card-body">
+                    <img src="images/Premium.png" class="img-fluid">
+                    <ol class="text">
+                      <li>Food</li>
+                      <li>Drinks</li>
+                      <li>Venue</li>
+                      <li>4 Bouncers</li>
+                      <li>System & DJ</li>
+                      <li>Mixologist</li>
+                    </ol>
+                  </div>
+                  <button id="premium" class="btn btn-success" onclick="prem();">Choose ksh 95000</button>
+                </div>
+              </div>
+            </div>
+          </div><br>
+      
+        </section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <form action="custom">
+                  <div class="card sm-6 bd-0 bg-success">
+                    <h4>Choose Bouncer</h4>
+                    <div>
+                      <select class="form-control" name="" id="select">
+                        <option value="1000">One Bouncer <span class="">Ksh1000</span></option>
+                        <option value="2000">Two Bouncer <span class="">Ksh2000</span></option>
+                        <option value="3000">Three Bouncer <span class="">Ksh3000</span></option>
+                        <option value="4000">Four Bouncer <span class="">Ksh4000</span></option>
+                      </select>
+                    </div>
+                    <div class="container">
+                      <div class="row"></div>
+                      <h4>Drinks</h4>
+                      <input class="selector" type="checkbox" name="Vodka" value="Vodka">Vodka <br>
+                      <input class="selector" type="checkbox" name="Whiskey" value="Whiskey">Whiskey <br>
+                      <input class="selector" type="checkbox" name="Gin" value="Gin">Gin <br>
+                      <input class="selector" type="checkbox" name="Rum" value="Rum">Rum <br>
+                      <input class="selector" type="checkbox" name="Brandy" value="Brandy">Brandy <br>
+                      <input class="selector" type="checkbox" name="Beer" value="Beer">Beer <br>
+                      <input class="selector" type="checkbox" name="Cocktail" value="Cocktail">Cocktail <br>
+                      <h4>Food</h4>
+                      <input class="selector" id="food" type="radio" name="food">Yes<br>
+                      <input class="selector" type="radio" name="food">No<br>
+                      <h4>Venue</h4>
+                      <input class="selector" id="Venue" type="radio" name="Venue">Yes<br>
+                      <input class="selector" type="radio" name="Venue">No<br>
+                      <h4>System DJ</h4>
+                      <input class="selector" id="djay" type="radio" name="System and DJ" value="yes">Yes<br>
+                      <input class="selector" type="radio" name="System and DJ" value="no">No<br>
+                      <button type="submit" class="btn btn-danger" onclick="choose();">choose</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-6">
+                <div id="display" class="card">
+                  <div class="card-header bg-success">
+                    <h4>Custom Package</h4>
+                  </div>
+                  <div class="card-body bd bd t-0 rounded-bottom bg-success">
+                    <h5>Drink Options</h5>
+                    <ul id="drinks">
+
+                    </ul>
+                    <p><span id="security"></span></p>
+                    <p><span id="fud"></span></p>
+                    <p><span id="venu"></span></p>
+                    <p><span id="system"></span></p>
+                    <p>Ksh<span id="total"></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container" id="book-now">
+            <h2 class="h1-responsive font-weight-bold text-center my-4">BOOK NOW</h2>
+            <div class="row">
+              <div class="col-md-9 mb-md-0 mb-5">
+                <form id="book-now" name="book-now" >
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="booking-name" name="booking-name" class="form-control" required>
+                        <label for="booking-name" class="">Your name</label>
+                      </div>
+                    </div>
+                    <div class="ol-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="booking-email" name="booking-email" class="form-control" required>
+                        <label for="email" class="">Your email</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="md-form">
+                        <textarea type="text" name="booking-message" id="booking-message" placeholder="Specify anything else..." 
+                         class="form-control md-textarea" required rows="2"></textarea>
+                        <label for="message">Additional Information</label>   
+                      </div>
+                      <button type="submit" id="submit-bookings" class="btn btn-info bg-success">Submit</button>
+                    </div>
+                    <div class="booking-confirmation-message">Your message has been sent</div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
 </body>
 </html>
