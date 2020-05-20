@@ -63,3 +63,10 @@
     padding: 12px 12px;
     background-color: #fff;
   }
+  .tabs a:hover {
+    color: #f7c552;
+  }
+  
+  .tabs .active {
+    color: #f7c552;
+  }
