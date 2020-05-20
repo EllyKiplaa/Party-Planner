@@ -48,7 +48,7 @@ nav ul li a{
    background-repeat: repeat-x; /* for horizontal repeat*/
 } 
 
-
+/* about */
 #about {
     padding: 150px 0px;
     height: 100vh;
@@ -120,3 +120,27 @@ nav ul li a{
     margin-bottom: 16px;
 }
 
+/* Services */
+.services{
+    padding-top: 100px;
+    color: chocolate;
+}
+#services {
+    height: 70vh;
+    background-image: url("../images/pxfuel.com.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+    background-color: rgba(237, 237, 237, 1);
+}
+
+#services i{
+    font-size: 80px;
+    padding: 30px 30px;
+    color: #FF2276;
+}
+
+#services h4 {
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
