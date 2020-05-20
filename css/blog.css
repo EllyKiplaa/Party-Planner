@@ -51,3 +51,15 @@
     text-align: center;
     margin: 25px 0px;
   }
+  .tabs a {
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    text-transform:capitalize;
+    letter-spacing: 0.5px;
+    color:#121212;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 12px;
+    background-color: #fff;
+  }
