@@ -40,5 +40,26 @@ nav ul li a{
     padding: 4px;
     font-weight: bold;
 }
-
-  
+ .packages{
+    background-image: url(../images/restaurant-2697945_960_720.webp);
+    background-repeat: repeat-y; /* for vertical repeat */
+    background-repeat: repeat-x; /*for horizontal repeat */
+} 
+   .features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+    }
+    .feature-title {
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    }
+    .features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+    } 
