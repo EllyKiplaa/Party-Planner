@@ -43,7 +43,7 @@ nav ul li a{
     font-weight: bold;
 }
 
-
+/* about */
 #about {
     padding: 150px 0px;
     height: 100vh;
@@ -115,3 +115,16 @@ nav ul li a{
     margin-bottom: 16px;
 }
 
+/* Services */
+.services{
+    padding-top: 100px;
+    color: chocolate;
+}
+#services {
+    height: 70vh;
+    background-image: url("../images/pxfuel.com.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+    background-color: rgba(237, 237, 237, 1);
+}
