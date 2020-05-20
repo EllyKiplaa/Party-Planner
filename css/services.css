@@ -42,11 +42,11 @@ nav ul li a{
     padding: 4px;
     font-weight: bold;
 }
-/* .packages{
+.packages{
     background-image: url(../images/restaurant-2697945_960_720.webp);
     background-repeat: repeat-y; /* for vertical repeat */
-   /* background-repeat: repeat-x; /* for horizontal repeat
-} */
+   background-repeat: repeat-x; /* for horizontal repeat*/
+} 
 
 
 #about {
