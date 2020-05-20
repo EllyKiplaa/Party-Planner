@@ -46,3 +46,8 @@
     margin-top: 40px;
     padding-right: 70px;
   }
+  .tabs li {
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+  }
