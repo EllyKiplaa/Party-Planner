@@ -29,4 +29,9 @@ function inter(){
     document.getElementById("intermediate").disabled = true;
     document.getElementById("premium").disabled = true;
 };
-function prem()
+function prem(){
+    alert("You have chosen the Premium package at ksh 85000")
+    /*document.getElementById("base").disabled = true;
+    document.getElementById("intermediate").disabled = true;
+    document.getElementById("premium").disabled = true;*/
+};
