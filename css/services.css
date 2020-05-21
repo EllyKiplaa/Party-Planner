@@ -188,11 +188,11 @@ a.text-primary:hover {
 }
 
 /* Services */
-.services{
-    padding-top: 100px;
+.Services{
+    padding-top: 50px;
     color: chocolate;
 }
-#services {
+#Services {
     height: 80vh;
     background-image: url("../images/pxfuel.com.jpg");
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@ a.text-primary:hover {
 }
 
 
-#services h4 {
+#Services h4 {
     padding-bottom: 5px;
     padding-top: 15px;
 }
