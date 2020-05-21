@@ -1,0 +1,130 @@
+/* nav-bar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+nav ul {
+  line-height: 30px;
+  color: #fff;
+  font-family: "Poppins", sans serif;
+  transition: 2s;
+  text-align: right;
+}
+nav ul li {
+  display: flex;
+  padding: 10px 15px;  
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 4px;
+  font-weight: bold;
+}
+
+/* blog-section */
+#blog {
+    background-image: url(../images/alasdair-elmes-ULHxWq8reao-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#blog .section-heading {
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 582px;
+    margin-left: -100vh;
+    padding-left: 100vh;
+    overflow: hidden;
+}
+#blog .section-heading h4{
+    margin-top: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+}
+#blog .section-heading .line-dec {
+    width: 270px;
+    height: 1px;
+    background-color: rgba(250, 250, 250, 0.5);
+    margin: 20px 0 15px 0;
+}
+#blog .section-heading p {
+	color: #fff;
+	padding-right: 70px;
+}
+.wrapper {
+    text-align: center;
+  }
+  .tabs {
+    list-style: none;
+    margin-top: 40px;
+    padding-right: 70px;
+  }
+  
+  .tabs li {
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+  }
+  .tabs a {
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    text-transform:capitalize;
+    letter-spacing: 0.5px;
+    color:#121212;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 12px;
+    background-color: #fff;
+  }
+  .tabs a:hover {
+    color: #f7c552;
+  }
+  
+  .tabs .active {
+    color: #f7c552;
+  }
+  #first-tab-group {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.tabgroup .text-content	 {
+  background-color: #fff;
+  color: #fff;
+  padding: 25px;
+  text-align: left;
+}
+.tabgroup .text-content h4 {
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	color: #121212;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}                                   
+.tabgroup .text-content span {
+	font-size: 13px;
+	color: #33c1cf;
+}
+.tabgroup .text-content a {
+	font-size: 13px;
+	color: #33c1cf;
+	text-decoration: none;
+}
+.tabgroup .text-content p {
+	margin-top: 10px;
+}
+.clearfix:after {
+    content:"";
+    display:table;
+    clear:both;
+  }
