@@ -250,3 +250,15 @@ footer .logo em {
 	font-size: 28px;
 	color: #f7c552;
 }
+
+footer .logo-ft {
+	display: inline-block;
+	margin-top: 15px;
+	text-decoration: none;
+	color: #fff!important;
+	font-size: 21px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-shadow: none;
+	letter-spacing: 1px;
+}
