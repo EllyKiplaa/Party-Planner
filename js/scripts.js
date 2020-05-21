@@ -11,4 +11,5 @@ function choose(){
         myArray.push(30000)
         document.getElementById("fud").innerHTML = ("Food Ksh. 30000")
     };
+    if (document.getElementById("venu").checked)
 };
