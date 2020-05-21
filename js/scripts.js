@@ -16,3 +16,5 @@ function choose(){
         document.getElementById("venu").innerHTML = ("Venue Ksh. 30000")
     };
 };
+
+function basic()
