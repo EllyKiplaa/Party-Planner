@@ -19,4 +19,7 @@ function choose(){
 
 function basic(){
     alert("You have chosen the Basic package at ksh 35000")
-}
+    document.getElementById("base").disabled = true;
+    document.getElementById("intermediate").disabled = true;
+    document.getElementById("premium").disabled = true;
+};
