@@ -31,7 +31,7 @@ function inter(){
 };
 function prem(){
     alert("You have chosen the Premium package at ksh 85000")
-    /*document.getElementById("base").disabled = true;
+    document.getElementById("base").disabled = true;
     document.getElementById("intermediate").disabled = true;
-    document.getElementById("premium").disabled = true;*/
+    document.getElementById("premium").disabled = true;
 };
