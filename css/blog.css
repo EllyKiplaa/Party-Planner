@@ -76,3 +76,23 @@
   padding: 25px;
   text-align: left;
 }
+.tabgroup .text-content h4 {
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	color: #121212;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.tabgroup .text-content span {
+	font-size: 13px;
+	color: #33c1cf;
+}
+.tabgroup .text-content a {
+	font-size: 13px;
+	color: #33c1cf;
+	text-decoration: none;
+}
+.tabgroup .text-content p {
+	margin-top: 10px;
+}
