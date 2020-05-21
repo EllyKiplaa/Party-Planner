@@ -10,6 +10,9 @@ $(document).ready(function () {
         alert("make selections please");
         return false;
       } else {
-
-      });
+        $("#drinks").html("")
+        drinks.forEach(drink => {
+          $("#drinks").append("<li class='drink'>" + drink + "</li>");
+          
+            });
     });
