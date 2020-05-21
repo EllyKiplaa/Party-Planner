@@ -1,2 +1,3 @@
 let myArray = [];
 
+function choose()
