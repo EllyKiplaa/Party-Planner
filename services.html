@@ -9,50 +9,51 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-3.5.1.js"></script>
 </head>
 <body class="wrapper">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent  fixed-top">
-        <div class="container">
-            <img src="./images/Fifth Ridge Logo (1).png" alt="tran" width="45" height="45">
-          <a class="navbar-brand" href="#">FIFTH RIDGE</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fa fa-fw fa-home"></i>Home
-                          <span class="sr-only">(current)</span>
-                        </a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fa fa-fw fa-info"></i></i>About
-                          <span class="sr-only">(current)</span>
-                        </a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#Blog"><i class="fas fa-blog"></i>Blog
-                          <span class="sr-only">(current)</span>
-                        </a>
-                  </li>
-                  <li class="nav-item active">  
-                    <a class="nav-link" href="#Services"><i class="fa fa-fw fa-cogs"></i></i>Services
-                          <span class="sr-only">(current)</span>
-                        </a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fa fa-fw fa-envelope"></i>Contact
-                          <span class="sr-only">(current)</span>
-                        </a>
-                  </li>             
-                </ul>
-              </div>
-            </div>
-          </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top">
+      <div class="container">
+          <img src="./images/Fifth Ridge Logo (1).png" alt="tran" width="45" height="45">
+        <a class="navbar-brand" href="#">FIFTH RIDGE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fa fa-fw fa-home"></i>Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fa fa-fw fa-info"></i></i>About
+                    <span class="sr-only">(current)</span>
+                  </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fas fa-blog"></i>Blog
+                    <span class="sr-only">(current)</span>
+                  </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fa fa-fw fa-cogs"></i></i>Services
+                    <span class="sr-only">(current)</span>
+                  </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fa fa-fw fa-envelope"></i>Contact
+                    <span class="sr-only">(current)</span>
+                  </a>
+            </li>             
+          </ul>
+        </div>
+      </div>
+    </nav>
           <section class="packages">
           <div class="container crs text-white">
             <div class="row">
-              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 p-1 mx-auto">
+              <div class="col-md-6 col-lg-3  col-sm-10 p-1 mx-auto">
                 <div id="basic" class="card sm-4 bd-0 bg-dark packages">
                   <div class="card-body">
                         <img src="./images/mediate.png" class="img-fluid">
@@ -68,17 +69,9 @@
                     <button id="base" type="button" class="btn btn-success" onclick="basic();">Choose ksh 34000</button>
                 </div>
               </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-md-4">
-                  
-                </div>
-                
-              </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 p-1 mx-auto">
+            <div class="col-md-6 col-lg-3  col-sm-10 p-1 mx-auto">
               <div id="inter" class="card sm-4 bd-0 bg-dark packages">
-                <div class="card-body"></div>
+                <div class="card-body">
                   <img src="./images/inter.png" class="img-fluid">
                   <ol class="text">
                     <li>Food</li>
@@ -92,7 +85,7 @@
                 <button id="intermediate" class="btn btn-success" onclick="inter();">Choose ksh 63000</button>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 p-1 mx-auto">
+            <div class="col-md-6 col-lg-3  col-sm-10 p-1 mx-auto">
                 <div id="prem" class="card sm-4 bd-0 bg-dark packages">
                   <div class="card-body">
                     <img src="images/Premium.png" class="img-fluid">
@@ -105,21 +98,22 @@
                       <li>Mixologist</li>
                     </ol>
                   </div>
-                  <button id="premium" class="btn btn-success" onclick="prem();">Choose ksh 95000</button>
+                  <button id="premium" class="btn btn-success" onclick="prem();">Choose ksh 88000</button>
                 </div>
               </div>
             </div>
           </div><br>
-      
         </section>
+        <section class="booking">
           <div class="container">
             <div class="row">
               <div class="col-md-6">
-                <form action="custom">
+                <form id="custom">
                   <div class="card sm-6 bd-0 bg-success">
                     <h4>Choose Bouncer</h4>
                     <div>
                       <select class="form-control" name="" id="select">
+                        <option value="">Choose a Bouncer <span class=""></span></option>
                         <option value="1000">One Bouncer <span class="">Ksh1000</span></option>
                         <option value="2000">Two Bouncer <span class="">Ksh2000</span></option>
                         <option value="3000">Three Bouncer <span class="">Ksh3000</span></option>
@@ -170,6 +164,7 @@
               </div>
             </div>
           </div>
+        </section>
           <div class="container" id="book-now">
             <h2 class="h1-responsive font-weight-bold text-center my-4">BOOK NOW</h2>
             <div class="row">
@@ -192,8 +187,8 @@
                   <div class="row">
                     <div class="col-md-12">
                       <div class="md-form">
-                        <textarea type="text" name="booking-message" id="booking-message" placeholder="Specify anything else..." 
-                         class="form-control md-textarea" required rows="2"></textarea>
+                        <textarea type="text" name="booking-message" id="booking-message" placeholder="Specify anything else..."  rows="2"
+                         class="form-control md-textarea" required></textarea>
                         <label for="message">Additional Information</label>   
                       </div>
                       <button type="submit" id="submit-bookings" class="btn btn-info bg-success">Submit</button>
@@ -204,5 +199,60 @@
               </div>
             </div>
           </div>
+        
+          <footer class="foot">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="logo">
+                            <a class="logo-ft scroll-top" href="#"><em>F</em>ifth<em>R</em>idge</a>
+                            <p> Copyright ©
+                              2020
+                           <br>Designed by Bryson and co</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                      <div class="location">
+                          <h4>Location</h4>
+                          <ul>
+                              <li>Westgate Mall <br></li>
+                              <li>2nd floor <br></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-md-2 col-sm-12">
+                    <div class="contact-info">
+                        <h4>More Info</h4>
+                        <ul>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i>+254 734-095-275</li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> +254 707-569981</li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i>fifthridge@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                  <div class="connect-us">
+                      <h4>Get Social with us</h4>
+                      <ul>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="#"><i class="fa fa-google"></i></a></li>
+                          <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+        </div>
+        </footer>
+        
+        
+            
+              
+        <script src="./js/jquery-3.5.1.js"></script>
+        <script src="./js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
 </body>
 </html>
