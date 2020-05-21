@@ -238,5 +238,11 @@ button:hover, a:hover {
 }
 
 
-/* blog */
+/* footer */
+footer {
+	margin-top: -6px;
+	background-color: #373a3c;
+	padding: 50px 0px;
+}
+
 
