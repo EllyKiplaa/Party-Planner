@@ -3,20 +3,19 @@ $(document).ready(function () {
     event.preventDefault();
     drinks = $("input[type=checkbox]:checked").map(function (_, sel) {
         return $(sel).val();
-      })
+ })
       .get();
 
-      if (drinks === undefined || drinks.length == 0) {
-        alert("make selections please");
-        return false;
-      } else {
-        $("#drinks").html("")
-        drinks.forEach(drink => {
-          $("#drinks").append("<li class='drink'>" + drink + "</li>");
-          
-            });
-    });
-    
+    if (drinks === undefined || drinks.length == 0) {
+      alert("make selections please");
+      return false;
+    } else {
+      $("#drinks").html("")
+      drinks.forEach(drink => {
+        $("#drinks").append("<li class='drink'>" + drink + "</li>");
+      });
+    };
+
     let security = $("#select option:selected").text();
     let securityCost = parseInt($("#select option:selected").val())
 
@@ -24,4 +23,11 @@ $(document).ready(function () {
     myArray.push(securityCost)
 
     let total = 0;
+
+    myArray.forEach(n => {
+      total += n
+      $("#total").text(total)
+    });
   });
+  
+});
