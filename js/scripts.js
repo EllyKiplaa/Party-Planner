@@ -17,4 +17,6 @@ function choose(){
     };
 };
 
-function basic()
+function basic(){
+    alert("You have chosen the Basic package at ksh 35000")
+}
