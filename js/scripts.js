@@ -29,3 +29,4 @@ function inter(){
     document.getElementById("intermediate").disabled = true;
     document.getElementById("premium").disabled = true;
 };
+function prem()
