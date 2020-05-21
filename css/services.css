@@ -236,6 +236,9 @@ button {
     width: 100%;
     font-size: 18px;
 }
+.sect{
+    margin-bottom: 50px;
+}
     
 button:hover, a:hover {
     opacity: 0.7;
