@@ -347,3 +347,23 @@ footer .connect-us h4 {
 	margin-bottom: 35px;
 }
 
+footer .connect-us ul li {
+	display: inline-block;
+	margin-right: 2px;
+}
+
+footer .connect-us ul li a {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 50%;
+	color: #373a3c;
+	font-size: 15px;
+	transition: all 0.3s;
+}
+footer .connect-us ul li a:hover {
+	background-color: #f7c552;
+}
