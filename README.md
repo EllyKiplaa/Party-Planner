@@ -1,12 +1,13 @@
 ## FIFTH RIDGE
-## Authors
+
+## Description
+ This is a web application that eneables users to plan parties. Whatever kind of party you are planning; a birthday, bridal or baby shower,new years eve party or some other celebration, our Website  makes it easy to manage every detail. It saves time!
+ ## Authors
 * Elly Kiplangat 
 * Maratah Njoroge
 * Bryson Mundia
 * Abdul Aziz Ali
 * Frankline Kiplangat
-## Description
- This is a web application that eneables users to plan parties. Whatever kind of party you are planning; a birthday, bridal or baby shower,new years eve party or some other celebration, our Website  makes it easy to manage every detail. It saves time!
 
 ## Setup/Installation Requirements
 To run the application in your terminal:
