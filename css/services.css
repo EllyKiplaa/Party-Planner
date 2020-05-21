@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Cute+Font|Alegreya");
+
 .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -42,25 +44,58 @@ nav ul li a{
     padding: 4px;
     font-weight: bold;
 }
-.packages{
+/*.packages{
     background-image: url(../images/restaurant-2697945_960_720.webp);
     background-repeat: repeat-y; /* for vertical repeat */
-   background-repeat: repeat-x; /* for horizontal repeat*/
+  /* background-repeat: repeat-x; /* for horizontal repeat
 } 
+*/
+
+/*  */
+
+#text{
+    font-family: "Poppins";
+    font-size: 30px;
+    color: black;
+}
+
+.one{
+    font-family: "Alegreya";
+    color: sienna;
+}
+
+#tet{
+    font-family: "Poppins";
+    font-size: 30px;
+    color: white;
+}
+
+
 
 /* about */
 #about {
-    padding: 150px 0px;
-    height: 100vh;
+    padding: 100px 0px;
+    color: snow;
+    height: 150vh;
 	background-image: url("../images/banner_bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
+p{
+    font-family: "Poppins";
+
+}
+
 #about .service-item {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 50px;
+}
+
+h2{
+    font-family: "Alegreya";
+    font-size: 35px;
 }
 
 #about .service-item .icon {
@@ -77,10 +112,17 @@ nav ul li a{
 #about .service-item h4 {
 	margin-bottom: 30px;
 	margin-top: 45px;
-	font-size: 17px;
+	font-size: 25px;
 	font-weight: 500;
 	color: #fff;
 	letter-spacing: 1px;
+}
+
+
+#about .line-dec{
+    width: 100%;
+	height: 1px;
+	background-color: rgba(250, 250, 250, 0.5);
 }
 
 #about .service-item .line-dec {
@@ -94,8 +136,33 @@ nav ul li a{
 	margin-top: 30px;
 }
 
-#about .service-item .primary-blue-button {
-	margin-top: 35px;
+#about .service-item .btn btn-secondary {
+   border: none;  
+   padding: 8px;
+   background-color: grey;
+   border-bottom-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;  
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+}
+
+.scroll-link{
+    color: white;
+}
+
+#two{
+    color: white;
+}
+
+.text-primary {
+  color: #286090;
+
+}
+a.text-primary:hover {
+  color: #286090;
 }
 
 
@@ -126,7 +193,7 @@ nav ul li a{
     color: chocolate;
 }
 #services {
-    height: 70vh;
+    height: 100vh;
     background-image: url("../images/pxfuel.com.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,13 +201,37 @@ nav ul li a{
     background-color: rgba(237, 237, 237, 1);
 }
 
-#services i{
-    font-size: 80px;
-    padding: 30px 30px;
-    color: #FF2276;
-}
-
 #services h4 {
     padding-bottom: 5px;
     padding-top: 15px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+  
+.title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+    
+button:hover, a:hover {
+    opacity: 0.7;
 }
