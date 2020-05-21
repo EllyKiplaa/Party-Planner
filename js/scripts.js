@@ -8,11 +8,11 @@ $(document).ready(function() {
     });
   });
 
-$(document).ready(function() {
+  $(document).ready(function() {
     $('.nav-item').click(function(event) {
       $('body, html').animate({
-        scrollTop: $("#Services").offset().top 
-      }, 1000);
+        scrollTop: $("#about").offset().top
+      }, 800);
   
     });
   });
