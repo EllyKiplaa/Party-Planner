@@ -193,13 +193,14 @@ a.text-primary:hover {
     color: chocolate;
 }
 #services {
-    height: 100vh;
+    height: 80vh;
     background-image: url("../images/pxfuel.com.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 	background-attachment: fixed;
     background-color: rgba(237, 237, 237, 1);
 }
+
 
 #services h4 {
     padding-bottom: 5px;
@@ -209,7 +210,7 @@ a.text-primary:hover {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
-    margin: auto;
+    margin-top: 50px;
     text-align: center;
     font-family: arial;
 }
@@ -230,7 +231,7 @@ button {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
-  }
+}
     
 button:hover, a:hover {
     opacity: 0.7;
