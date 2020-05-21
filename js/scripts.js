@@ -22,4 +22,6 @@ $(document).ready(function () {
 
     $("#security").text(security);
     myArray.push(securityCost)
+
+    let total = 0;
   });
