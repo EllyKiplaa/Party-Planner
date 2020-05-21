@@ -44,14 +44,18 @@ nav ul li a{
     padding: 4px;
     font-weight: bold;
 }
-/*.packages{
-    background-image: url(../images/restaurant-2697945_960_720.webp);
-    background-repeat: repeat-y; /* for vertical repeat */
-  /* background-repeat: repeat-x; /* for horizontal repeat
+.packages{
+    background-image: url(../images/part.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
-*/
-
-/*  */
+.booking{
+    background-image: url(../images/party-people-1644798_960_720.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:20px;
+    padding: 50px;
+}
 
 #text{
     font-family: "Poppins";
