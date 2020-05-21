@@ -1,10 +1,10 @@
 ## FIFTH RIDGE
 ## Authors
-** Elly Kiplangat **
-** Maratah Njoroge **
-** Bryson Mundia **
-** Abdul Aziz Ali **
-** Frankline Kiplangat **
+* Elly Kiplangat 
+* Maratah Njoroge
+* Bryson Mundia
+* Abdul Aziz Ali
+* Frankline Kiplangat
 ## Description
  This is a web application that eneables users to plan parties. Whatever kind of party you are planning; a birthday, bridal or baby shower,new years eve party or some other celebration, our Website  makes it easy to manage every detail. It saves time!
 
@@ -13,11 +13,12 @@ To run the application in your terminal:
 - Clone Repository on Local computer https://github.com/EllyKiplaa/Party-Planner/  
 - cd into Directory  cd portfolio
 - Open the index.html on the browser
-## Technologies used
-* HTML5
-* CSS
-* JQuery
-* Bootstrap
+## Technologies Used
+- [HTML5](https://github.com/topics/html5)
+- [CSS](https://github.com/topics/css3)
+- [Bootstrap](https://github.com/topics/bootstrap)
+- [jQuery](https://github.com/topics/javascript)
+- markdown
 
 ### License
 *MIT License
