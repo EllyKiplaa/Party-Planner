@@ -7,4 +7,5 @@ function choose(){
         myArray.push(20000)
         document.getElementById("system").innerHTML = ("Dj and System Ksh. 20000")
     };
+    if (document.getElementById("food").checked)
 };
