@@ -16,3 +16,5 @@ $(document).ready(function () {
           
             });
     });
+    let security = $("#select option:selected").text();
+    let securityCost = parseInt($("#select option:selected").val())
