@@ -270,3 +270,16 @@ footer .logo p {
 	margin-bottom: -10px;
 	letter-spacing: 0.5px;
 }
+
+footer .logo span {
+	font-weight: 600;
+	color: #f7c552;
+}
+
+footer .logo a {
+	color: #FFF;
+}
+
+footer .logo a:hover {
+	color: #9F0;
+}
