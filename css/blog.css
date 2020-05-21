@@ -108,8 +108,7 @@ p {
 .tm-nav li { 
     list-style: none; 
     display: inline-block;
-    border: 1px solid white;
-    float: left;
+    border: 1px solid white;    
     margin: 10px;
 }
 
