@@ -11,5 +11,8 @@ function choose(){
         myArray.push(30000)
         document.getElementById("fud").innerHTML = ("Food Ksh. 30000")
     };
-    if (document.getElementById("venu").checked)
+    if (document.getElementById("venue").checked){
+        myArray.push(30000)
+        document.getElementById("venu").innerHTML = ("Venue Ksh. 30000")
+    };
 };
