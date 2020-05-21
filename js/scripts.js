@@ -25,4 +25,7 @@ function basic(){
 };
 function inter(){
     alert("You have chosen the intermidiate package at ksh 65000")
+    document.getElementById("base").disabled = true;
+    document.getElementById("intermediate").disabled = true;
+    document.getElementById("premium").disabled = true;
 };
