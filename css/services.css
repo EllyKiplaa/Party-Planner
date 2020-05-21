@@ -245,4 +245,8 @@ footer {
 	padding: 50px 0px;
 }
 
-
+footer .logo em {
+	font-style: normal;
+	font-size: 28px;
+	color: #f7c552;
+}
