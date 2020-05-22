@@ -25,8 +25,8 @@ To run the application in your terminal:
 | :------------- | :----------: | -----------: |
 |  Chhose package  |   mediate package |     |
 | Choose Bouncer  | One bouncer@ksh. 1000 |   |
-| Drinks, Food, Venue, DJ   |  Drinks [Vodka and Whiskey], Food, DJ      |     |
-| Click choose|     |Display: Your package is Ksh. ...|
+| Drinks, Food, Venue, DJ   |  Drinks;Vodka and Whiskey, Food, DJ      |     |
+| Click choose|     |Display: Your package is Ksh. 30,000|
 
 
 | Behaviour      | Input        | Output       |
