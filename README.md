@@ -20,22 +20,21 @@ To run the application in your terminal:
 - Open the index.html on the browser
 
 ## Behaviour Driven Development
+# Booking section
 | Behaviour      | Input        | Output       |
-
 | :------------- | :----------: | -----------: |
-|  Chhose package  |   mediate package |     |
+| Choose package  |   mediate package |     |
 | Choose Bouncer  | One bouncer@ksh. 1000 |   |
 | Drinks, Food, Venue, DJ   |  Drinks;Vodka and Whiskey, Food, DJ      |     |
 | Click choose|     |Display: Your package is Ksh. 30,000|
 
-
+# Contact section
 | Behaviour      | Input        | Output       |
-
 | :------------- | :----------: | -----------: |
-|  Enter your name  |   Frankline Kiplangat |     |
+| Enter your name  |   Frankline Kiplangat |     |
 | Enter your Email Address  | kipfrankline@gmail.com |   |
-| Enter your message or comment   |  I would love to book      |     |
-| Press Submit|     |Display: Your message has been sent|
+| Enter your message   |       |     |
+| Press Submit|     |Display, your custom package is...|
 
 ## Technologies Used
 - [HTML5](https://github.com/topics/html5)
