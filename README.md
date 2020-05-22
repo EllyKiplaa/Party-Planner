@@ -9,8 +9,6 @@
 * Abdul Aziz Ali
 * Frankline Kiplangat
 
-## Screenshot
-<img src="/images">
 
 ## link to live site
 https://ellykiplaa.github.io/Party-Planner/
