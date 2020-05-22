@@ -1,3 +1,23 @@
+// User interface
+$(document).ready(function() {
+    $('.scroll-link').click(function(event) {
+      $('body, html').animate({
+        scrollTop: $("#gallery").offset().top
+      }, 800);
+  
+    });
+  });
+
+  $(document).ready(function() {
+    $('.nav-item').click(function(event) {
+      $('body, html').animate({
+        scrollTop: $("#about").offset().top
+      }, 800);
+  
+    });
+  });
+
+// business logic
 let myArray = [];
 
 function choose(){
@@ -37,7 +57,7 @@ function prem(){
     document.getElementById("intermediate").disabled = true;
     document.getElementById("premium").disabled = true;
 };
-
+// user interface
 $(document).ready(function () {
   $("form#custom").submit(function (event) {
     event.preventDefault();
