@@ -14,6 +14,15 @@ To run the application in your terminal:
 - Clone Repository on Local computer https://github.com/EllyKiplaa/Party-Planner/  
 - cd into Directory  cd portfolio
 - Open the index.html on the browser
+
+## Behaviour Driven Development
+| Behaviour      | Input        | Output       |
+| :------------- | :----------: | -----------: |
+|  Enter your name  |   Frankline Kiplangat |     |
+| Enter your Email Address  | kipfrankline@gmail.com |   |
+| Enter your message or comment   |  I would love to book      |     |
+| Press Submit|     |Display,Your message has been sent|
+
 ## Technologies Used
 - [HTML5](https://github.com/topics/html5)
 - [CSS](https://github.com/topics/css3)
