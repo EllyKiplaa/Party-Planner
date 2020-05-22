@@ -1,7 +1,7 @@
 ## FIFTH RIDGE
 
 ## Description
- This is a web application that eneables users to plan parties. Whatever kind of party you are planning; a birthday, bridal or baby shower,new years eve party or some other celebration, our Website  makes it easy to manage every detail. It saves time!
+ This is a web application that eneables users to plan parties. Whatever kind of party you are planning; a birthday, bridal or baby shower,new years eve party, business meetings or some other celebration, our Website  makes it easy to manage every detail. It saves time!
  ## Authors
 * Elly Kiplangat 
 * Maratah Njoroge
@@ -21,7 +21,7 @@ To run the application in your terminal:
 |  Enter your name  |   Frankline Kiplangat |     |
 | Enter your Email Address  | kipfrankline@gmail.com |   |
 | Enter your message or comment   |  I would love to book      |     |
-| Press Submit|     |Display,Your message has been sent|
+| Press Submit|     |Display: Your message has been sent|
 
 ## Technologies Used
 - [HTML5](https://github.com/topics/html5)
