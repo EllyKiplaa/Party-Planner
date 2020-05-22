@@ -60,7 +60,7 @@ nav ul li a{
 #text{
     font-family: "Poppins";
     font-size: 30px;
-    color: black;
+    color: white;
 }
 
 .one{
@@ -192,11 +192,11 @@ a.text-primary:hover {
 }
 
 /* Services */
-.services{
+.Services{
     padding-top: 100px;
     color: chocolate;
 }
-#services {
+#Services {
     height: 80vh;
     background-image: url("../images/pxfuel.com.jpg");
     background-repeat: no-repeat;
