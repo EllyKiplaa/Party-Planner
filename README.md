@@ -10,7 +10,10 @@
 * Frankline Kiplangat
 
 ## Screenshot
+<img src="/images">
 
+## link to live site
+https://ellykiplaa.github.io/Party-Planner/
 
 ## Setup/Installation Requirements
 To run the application in your terminal:
