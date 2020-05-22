@@ -9,6 +9,9 @@
 * Abdul Aziz Ali
 * Frankline Kiplangat
 
+## Screenshot
+
+
 ## Setup/Installation Requirements
 To run the application in your terminal:
 - Clone Repository on Local computer https://github.com/EllyKiplaa/Party-Planner/  
@@ -17,6 +20,16 @@ To run the application in your terminal:
 
 ## Behaviour Driven Development
 | Behaviour      | Input        | Output       |
+
+| :------------- | :----------: | -----------: |
+|  Chhose package  |   mediate package |     |
+| Choose Bouncer  | One bouncer@ksh. 1000 |   |
+| Drinks, Food, Venue, DJ   |  Drinks [Vodka and Whiskey], Food, DJ      |     |
+| Click choose|     |Display: Your package is Ksh. ...|
+
+
+| Behaviour      | Input        | Output       |
+
 | :------------- | :----------: | -----------: |
 |  Enter your name  |   Frankline Kiplangat |     |
 | Enter your Email Address  | kipfrankline@gmail.com |   |
